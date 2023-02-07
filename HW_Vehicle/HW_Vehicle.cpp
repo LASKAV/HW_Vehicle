@@ -108,6 +108,8 @@ int main()
         Obj_Vech[choice - 1]->FuelConsumption();
     }
 
+    delete *Obj_Vech;
+
     return 0;
 
 }
